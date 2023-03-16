@@ -11,4 +11,5 @@ public class Notification {
     private String message;
     private LocalDateTime created;
     private boolean deliveredStatus;
+    private Status status;
 }

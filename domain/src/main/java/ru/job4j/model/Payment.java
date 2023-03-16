@@ -7,7 +7,7 @@ public class Payment {
 
     private int id;
     private double currentPrice;
-    private  boolean acceptStatus;
+    private Status status;
     private String ccNumber;
     private String ccExpiration;
     private String ccCVV;
